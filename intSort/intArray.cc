@@ -1,6 +1,8 @@
 #include <cstdlib>
 #include <iostream>
 #include <unistd.h>
+#include <time.h>
+#include <chrono>
 #include "intArray.h"
 #include "console.h"
 
@@ -16,8 +18,9 @@ IntArray& IntArray::operator=(const IntArray& rhs){
 }
 
 void IntArray::randomize(){
+    srand((unsigned)time(NULL));
     for(int i = 0; i < _size; i++){
-        int random_num = rand() % 50;
+        int random_num = rand() % 50 - 25;
         ap[i] = random_num;
     }
 }

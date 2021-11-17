@@ -26,5 +26,5 @@ target_include_directories(sort
 
 target_link_libraries(sort intArray)
 
-add_executable(main main.cc)
+add_executable(main main.cc maxSubArray.cc)
 target_link_libraries(main intArray sort)
