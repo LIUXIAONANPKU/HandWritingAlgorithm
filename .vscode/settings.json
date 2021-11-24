@@ -1,6 +1,6 @@
 {
     "files.associations": {
-        "cstdlib": "cpp",
+        "iostream": "cpp",
         "array": "cpp",
         "atomic": "cpp",
         "*.tcc": "cpp",
@@ -11,6 +11,7 @@
         "cstddef": "cpp",
         "cstdint": "cpp",
         "cstdio": "cpp",
+        "cstdlib": "cpp",
         "cwchar": "cpp",
         "cwctype": "cpp",
         "deque": "cpp",
@@ -18,9 +19,13 @@
         "vector": "cpp",
         "exception": "cpp",
         "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
         "memory": "cpp",
         "memory_resource": "cpp",
+        "numeric": "cpp",
         "optional": "cpp",
+        "random": "cpp",
         "string": "cpp",
         "string_view": "cpp",
         "system_error": "cpp",
@@ -30,7 +35,6 @@
         "fstream": "cpp",
         "initializer_list": "cpp",
         "iosfwd": "cpp",
-        "iostream": "cpp",
         "istream": "cpp",
         "limits": "cpp",
         "new": "cpp",
@@ -38,18 +42,6 @@
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp",
-        "cerrno": "cpp",
-        "ios": "cpp",
-        "queue": "cpp",
-        "random": "cpp",
-        "chrono": "cpp",
-        "ctime": "cpp",
-        "ratio": "cpp",
-        "list": "cpp",
-        "forward_list": "cpp",
-        "functional": "cpp",
-        "iterator": "cpp",
-        "numeric": "cpp"
+        "typeinfo": "cpp"
     }
 }
