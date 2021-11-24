@@ -14,5 +14,5 @@ target_include_directories(dataStructure
         ${PROJECT_SOURCE_DIR}
 )
 
-add_executable(test_dataStructure test_dataStructure.cc)
-target_link_libraries(test_dataStructure dataStructure)
+add_executable(test_UIntArray test_UIntArray.cc)
+target_link_libraries(test_UIntArray dataStructure)
